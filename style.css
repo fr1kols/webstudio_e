@@ -283,3 +283,8 @@
     color: var(--web);
     font-family: 'Raleway', sans-serif;
 }
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
