@@ -61,6 +61,7 @@
     width: 250px;
 }
 
+
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -96,7 +97,7 @@
 }
 
 .footer-logo{
-    font-family:  'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--header-web);
@@ -369,6 +370,15 @@ font-size: 16px;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.48px;
 }
+
+.portfolio-footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--header-web);
+    vertical-align: 20px;
+}
+
 .filter-list{
     display: flex;
     gap: 8px;
