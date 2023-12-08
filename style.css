@@ -38,6 +38,10 @@
     justify-content: space-between;
 }
 
+.text-details{
+    color: var(--nav-number);
+}
+
 .activity-img{
     width: 370px;
     height: 294px;
@@ -84,7 +88,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color:var(--header-web);
+    color: var(--header-web);
     margin-right: 93px;
 }
 .black{
@@ -92,11 +96,20 @@
 }
 
 .footer-logo{
+    font-family:  'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
     color: var(--header-web);
+    vertical-align: 20px;
+}
+
+.white{
+    color: #FFF;
 }
 
 .footer-city{
     color: var(--main-title);
+
 }
 
 .footer-link{
@@ -129,9 +142,11 @@
 }
 
 .seaction-post{
-    background-color: var(--main);
+    background-image: url(./img/Imgheader.webp);
+    background: linear-gradient(rgba(47, 48, 58, 0.40));
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 
 .site-nav{
@@ -193,6 +208,32 @@
     width: 270px;
 }
 
+.site-details-item::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--button);
+    border-radius: 4px;
+    background-image: url(./img/antenna1.webp);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.site-details-item:nth-child(2)::before {
+    background-image: url(./img/clock1.webp);
+}
+
+.site-details-item:nth-child(3)::before {
+    background-image: url(./img/diagram1.webp);
+}
+
+.site-details-item:nth-child(4)::before {
+    background-image: url(./img/astronaut1.webp);
+}
+
 .site-details{
     display: flex;
     justify-content: space-between;
@@ -229,6 +270,7 @@
 }
 
 .details-title{
+    color: var(--nav);
     margin-bottom: 10px;
 }
 
@@ -254,6 +296,8 @@
 .team-item{
     width: 270px;
     padding-bottom: 30px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .team-wrap{
@@ -265,7 +309,7 @@
 }
 
 .profession{
-    color: #757575;
+    color: var(--nav-number);
     font-size: 16px;
 }
 .container{
