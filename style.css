@@ -1,7 +1,7 @@
 :root{
     --header-web: #2196f3;
     --nav-studio: #000000;
-
+    --site-nav-link: #2196F3;
     --nav: #212121;
     --nav-number: #757575;
     /*Це там де h1 і кнопка */
@@ -11,7 +11,9 @@
     --li-p: #757575;
     --footer-background: var(--main);
     /*2ст*/
-    --button: #F5F4FA
+    --button: #F5F4FA;
+    --icon-color:#AFB1B8;
+    
 }
 
  body{
@@ -157,6 +159,10 @@
     align-items: center;
 }
 
+.site-nav-link:hover{
+    color: var(--site-nav-link);
+
+}
 .site-nav-link{
     color: var(--nav);
     font-weight: 500;
@@ -174,6 +180,24 @@
 .contacts{
     display: flex;
 }
+
+.contacts .contact-link:hover{
+    color: var(--header-web);
+}
+
+.contact-link:hover .contact-icon{
+    fill: var(--header-web);
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon{
+    margin-right: 10px;
+}
+
 .email{
     margin-right: 50px;
     font-weight: 500;
@@ -262,6 +286,36 @@
     border: 0;
     border-radius: 4px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.social-link{
+    fill: var(--icon-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link:hover,
+.social-link:focus{
+    fill: var(--button);
+    background-color: var(--header-web);
 }
 
 
@@ -272,6 +326,11 @@
 
 .details-title{
     color: var(--nav);
+    width: 270px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
@@ -413,6 +472,7 @@ letter-spacing: 0.48px;
 .filt-button-active:focus{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+
 
 
 
