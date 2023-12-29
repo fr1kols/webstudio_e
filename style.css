@@ -394,6 +394,7 @@
     text-align: center;
     font-size: 36px;
     font-weight: 700;
+    padding-top: 59px;
 }
 
 .client-link{
@@ -443,6 +444,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-box{ 
+    display: flex; 
+    justify-content: space-between; 
 }
 
 
