@@ -190,6 +190,7 @@
 }
 
 .contact-link{
+    fill: var(--li-p);
     display: flex;
     align-items: center;
 }
@@ -404,6 +405,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     border: 1px solid var(--icon-color);
     padding-top: 16px;
     padding-bottom: 16px;
@@ -430,21 +432,51 @@
 .footer-icon{
     width: 20px;
     height: 20px;
+    fill: white;
+    margin: 10px;
 }
 
 .footer-ul{
     display: flex;
     justify-content: space-between;
+    
+}
+    
+.footer-class:hover,
+.footer-class:focus{
+    fill: var(--button);
+    background-color: var(--header-web);
 }
 
 .footer-class{
     fill: var(--icon-color);
     width: 44px;
     height: 44px;
+    background-color: rgba(255, 255, 255, 0.10);
+    margin: 10px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.footer-img{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 600px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.join{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--main-title);
+    text-transform: uppercase;
+    
+}
+
 
 .footer-box{ 
     display: flex; 
@@ -530,6 +562,50 @@ letter-spacing: 0.48px;
     cursor: pointer;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+
+.portfolio-icon{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin: 10px;
+}
+
+.portfolio-ul{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+.portfolio-class{
+    fill: var(--icon-color);
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.10);
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.portfolio-join{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--main-title);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.portfolio-box{ 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
 .filt-button:hover,
 .filt-button:focus,
 .filt-button-active:hover,
