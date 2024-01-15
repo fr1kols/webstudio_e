@@ -525,7 +525,11 @@
     margin-right: 40px;
 }
 
-
+.modal-form-policy{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 .modal-form-input{
     width: 448px;
@@ -551,6 +555,8 @@
     width: 18px;
     height: 18px;
     position: absolute;
+    top: 30px;
+    left: 12px;
 }
 
 
@@ -580,6 +586,7 @@
     height: 120px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+    resize: none;
 }
 
 .modal-window::placeholder{
@@ -595,6 +602,7 @@
     width: 16px;
     height: 15px;
     fill: #212121;
+    margin-right: 7px;
 }
 
 .send-text{
@@ -605,7 +613,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-
+    margin-right: 7px;
 }
 
 .modal-conditions{
@@ -629,6 +637,10 @@
     font-weight: 700;
     cursor: pointer;
     border: none;
+    margin-top: 30px;
+    margin-left: 112px;
+    margin-right: 136px;
+    margin-top: 40px;
 }
 
 
