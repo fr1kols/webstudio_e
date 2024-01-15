@@ -538,6 +538,15 @@
     border: 1px solid rgba(33, 33, 33, 0.20);
 }
 
+.modal-form-input:focus {
+    outline: none; 
+     border-color: var(--site-nav-link);
+}
+
+.modal-form-input:focus + .modal-form-icon { 
+    fill: var(--site-nav-link); 
+}
+
 
 
 .modal-form-title{
