@@ -678,6 +678,7 @@
     line-height: 30px; 
     letter-spacing: 0.96px;
     border: none;
+    cursor: pointer;
 }
 
 .telegram-svg{
