@@ -183,6 +183,8 @@
 
 .site-nav-link:hover{
     color: var(--site-nav-link);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 
 }
 .site-nav-link{
@@ -211,7 +213,8 @@
 
 .contact-link{
     color: var(--nav-number);
-
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .contacts{
@@ -220,10 +223,14 @@
 
 .contacts .contact-link:hover{
     color: var(--header-web);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .contact-link:hover .contact-icon{
     fill: var(--header-web);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .contact-link{
@@ -354,6 +361,8 @@
 .social-link:focus{
     fill: var(--button);
     background-color: var(--header-web);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -464,6 +473,8 @@
     color: var(--site-nav-link);
     border-color: var(--site-nav-link);
     fill: var(--site-nav-link);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .footer-icon{
@@ -483,6 +494,8 @@
 .footer-class:focus{
     fill: var(--button);
     background-color: var(--header-web);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .footer-class{
@@ -556,10 +569,14 @@
 .modal-form-input:focus {
     outline: none; 
      border-color: var(--site-nav-link);
+     transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .modal-form-input:focus + .modal-form-icon { 
     fill: var(--site-nav-link); 
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -773,6 +790,8 @@
 .modal-icon:hover,
 .modal-icon:focus{
     fill: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -796,6 +815,8 @@ body{
 .portfolio-item:hover,
 .portfolio-item:focus{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 .portfolio-list{
     padding: 20px 24px;
@@ -900,6 +921,7 @@ letter-spacing: 0.48px;
 .product-trumb{
     position: relative;
     overflow: hidden;
+
 }
 
 .product-action{
@@ -924,6 +946,8 @@ letter-spacing: 0.48px;
 .portfolio-item:hover .product-action{
     opacity: 1;
     width: 370px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .filt-button:hover,
@@ -931,6 +955,8 @@ letter-spacing: 0.48px;
 .filt-button-active:hover,
 .filt-button-active:focus{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
