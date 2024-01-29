@@ -183,8 +183,6 @@
 
 .site-nav-link:hover{
     color: var(--site-nav-link);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 
 }
 .site-nav-link{
@@ -196,6 +194,8 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .site-nav-link.current::after{
@@ -219,18 +219,16 @@
 
 .contacts{
     display: flex;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .contacts .contact-link:hover{
     color: var(--header-web);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 .contact-link:hover .contact-icon{
     fill: var(--header-web);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 .contact-link{
@@ -355,14 +353,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .social-link:hover,
 .social-link:focus{
     fill: var(--button);
     background-color: var(--header-web);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -457,6 +455,8 @@
     padding-bottom: 16px;
     padding-right: 32px;
     padding-left: 32px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .client-list{
@@ -473,8 +473,6 @@
     color: var(--site-nav-link);
     border-color: var(--site-nav-link);
     fill: var(--site-nav-link);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 .footer-icon{
@@ -494,8 +492,6 @@
 .footer-class:focus{
     fill: var(--button);
     background-color: var(--header-web);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 .footer-class{
@@ -508,6 +504,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -564,19 +562,18 @@
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .modal-form-input:focus {
     outline: none; 
      border-color: var(--site-nav-link);
-     transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
+    
 }
 
 .modal-form-input:focus + .modal-form-icon { 
     fill: var(--site-nav-link); 
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -598,6 +595,8 @@
     position: absolute;
     top: 30px;
     left: 12px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -785,13 +784,13 @@
 
 .modal-icon{
     fill: #000000;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
 }
 
 .modal-icon:hover,
 .modal-icon:focus{
     fill: #2196F3;
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
 
 
@@ -811,13 +810,15 @@ body{
     margin-bottom: 30px;
     border: 1px solid #EEE;
     width: 370px;
+    transition-duration: 250ms;
+    transition-timing-function: var(--taiming-fuction);
+
 }
 .portfolio-item:hover,
 .portfolio-item:focus{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
 }
+
 .portfolio-list{
     padding: 20px 24px;
     cursor: pointer;
