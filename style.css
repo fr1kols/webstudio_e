@@ -186,19 +186,19 @@
     animation-name: changeColor;
     animation-duration: 250ms;
     animation-timing-function: var(--timing-funcition);
-    @keyframes changeColor{
-        0%
-        {
-            color: var(--nav);
-        }
-        100%
-        {
-            color: var(--site-nav-link);
-        }
-    }
-        
-
+    animation-fill-mode: forwards;
+    
 }
+
+@keyframes changeColor{
+    0%{
+        color: var(--nav);
+    }
+    100%{
+        color: var(--site-nav-link);
+    }
+}
+
 .site-nav-link{
     color: var(--nav);
     font-weight: 500;
@@ -372,8 +372,23 @@
 
 .social-link:hover,
 .social-link:focus{
-    fill: var(--button);
-    background-color: var(--header-web);
+   
+    animation-name: changeFill;
+    animation-duration: 250ms;
+    animation-timing-function: var(--timing-funcition);
+    animation-fill-mode: forwards;
+
+}
+@keyframes changeFill{
+    0%{
+        fill: var(--icon-color);
+        background-color: transparent;
+
+    }
+    100%{
+        fill: var(--button);
+         background-color: var(--header-web);
+    }
 }
 
 
