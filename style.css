@@ -183,7 +183,20 @@
 }
 
 .site-nav-link:hover{
-    color: var(--site-nav-link);
+    animation-name: changeColor;
+    animation-duration: 250ms;
+    animation-timing-function: var(--timing-funcition);
+    @keyframes changeColor{
+        0%
+        {
+            color: var(--nav);
+        }
+        100%
+        {
+            color: var(--site-nav-link);
+        }
+    }
+        
 
 }
 .site-nav-link{
@@ -195,8 +208,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    transition-duration: 250ms;
-    transition-timing-function: var(--taiming-fuction);
+   
 }
 
 .site-nav-link.current::after{
